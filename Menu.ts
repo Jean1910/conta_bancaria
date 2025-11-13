@@ -120,7 +120,7 @@ console.log(colors.fg.whitestrong, "\n\nAtualizar dados da Conta\n\n", colors.re
 console.log("Digite o número da Conta: ");
 numero = readlinesync.questionInt("");
 
-let conta = contas.buscarNoArray(numero);
+let  conta = contas.buscarNoArray(numero);
 
 if (conta != null) {
 
